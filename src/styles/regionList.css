@@ -1,0 +1,19 @@
+label {
+  color: #8a8a8a;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: darkgreen;
+  font-weight: bold;
+}
+ul li{
+  border: solid #9fb4f2 2px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 10px;
+}
