@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import * as allList from 'action/actionListRegion';
+import * as allList from '../action/actionListRegion';
 import {Link} from "react-router-dom";
 import {withRouter} from "react-router-dom";
 import '../styles/app.css'

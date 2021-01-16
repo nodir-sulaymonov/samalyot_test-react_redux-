@@ -1,5 +1,5 @@
 import {createStore, applyMiddleware, compose} from 'redux';
-import rootReducer from 'reducer/index';
+import rootReducer from '../reducer/index';
 import reduxThunk from "redux-thunk";
 const createStoreWithMiddleware = createStore(rootReducer, compose(
     applyMiddleware(reduxThunk),

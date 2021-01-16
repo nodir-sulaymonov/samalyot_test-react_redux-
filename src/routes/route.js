@@ -1,6 +1,6 @@
 import React from "react";
 import {Switch, Route} from 'react-router-dom';
-import ListRegion from 'container/ListRegion';
+import ListRegion from '../container/ListRegion';
 import Information from "../container/Information";
 
 const PublicRoute = ()=>{
